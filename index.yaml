@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   hello-world:
   - apiVersion: v2
+    appVersion: 1.25.4
+    created: "2024-04-15T20:06:40.366538+02:00"
+    description: A Helm chart for Kubernetes
+    digest: cad3ef4095b1aca60603e729b8058a30aef9861a73e945c281ca385353c031d0
+    name: hello-world
+    type: application
+    urls:
+    - hello-world-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-15T16:00:54.128635+02:00"
+    created: "2024-04-15T20:06:40.366249+02:00"
     description: A Helm chart for Kubernetes
     digest: 016c332f18ecdbe202ae93f3c8d9198a149bd5d3b1cd78d073e012236e8c81d3
     name: hello-world
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-15T16:00:54.128337+02:00"
+    created: "2024-04-15T20:06:40.365834+02:00"
     description: A Helm chart for Kubernetes
     digest: 28b715222e3853b0f6867e2b328b95bc33f2b664a4bb43cf4641851fb57bf1e7
     name: hello-world
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://pergon.github.io/Helm3/hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-15T16:00:54.127857+02:00"
+generated: "2024-04-15T20:06:40.365237+02:00"
